@@ -44,7 +44,7 @@ const weatherOptions = {
         iconName: "weather-cloudy",
         gradient: ["#D7D2CC", "#304352"],
         title: "Clouds",
-        subtitle: "I know, boring typical danish weather.. don't forget your vitamin D, at least.."
+        subtitle: "I know, typical danish weather.. don't forget your vitamin D, at least.."
     },
     Mist: {
         iconName: "weather-hail",
@@ -56,7 +56,7 @@ const weatherOptions = {
         iconName: "weather-hail",
         gradient: ["#4DA0B0", "#D39D38"],
         title: "Dusty",
-        subtitle: "Thanks a lot China 🖕🏻"
+        subtitle: "Bad news for your lungs"
     },
     Haze: {
         iconName: "weather-hail",

@@ -29,7 +29,7 @@ export default class extends React.Component {
   };
   getLocation = async () => {
     try {
-      await Location.requestPermissionsAsync();
+      await Location.requestForegroundPermissionsAsync();
       const {
         coords: { latitude, longitude }
       } = await Location.getCurrentPositionAsync();
